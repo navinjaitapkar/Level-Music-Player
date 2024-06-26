@@ -14,6 +14,13 @@
 		D7EA72A32C233F7100256CE0 /* Level.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7EA72A12C233F7100256CE0 /* Level.xcdatamodeld */; };
 		D7EA72A52C233F7300256CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7EA72A42C233F7300256CE0 /* Assets.xcassets */; };
 		D7EA72A82C233F7300256CE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7EA72A62C233F7300256CE0 /* LaunchScreen.storyboard */; };
+		D7EA72B22C2B27FE00256CE0 /* FirstCCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EA72B12C2B27FE00256CE0 /* FirstCCVC.swift */; };
+		D7EA72B42C2B2CC900256CE0 /* ForFocusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EA72B32C2B2CC900256CE0 /* ForFocusVC.swift */; };
+		D7EA72B62C2C3A2500256CE0 /* ForFocusCTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EA72B52C2C3A2500256CE0 /* ForFocusCTVC.swift */; };
+		D7EA72B82C2C417200256CE0 /* ForCreativityCTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EA72B72C2C417200256CE0 /* ForCreativityCTVC.swift */; };
+		D7EA72BA2C2C431D00256CE0 /* ForCreativityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EA72B92C2C431D00256CE0 /* ForCreativityVC.swift */; };
+		D7EA72BC2C2C532400256CE0 /* MusicPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EA72BB2C2C532400256CE0 /* MusicPlayerVC.swift */; };
+		D7EA72BF2C2C567400256CE0 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7EA72BE2C2C567400256CE0 /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		D7EA72A42C233F7300256CE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7EA72A72C233F7300256CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7EA72A92C233F7300256CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7EA72B12C2B27FE00256CE0 /* FirstCCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCCVC.swift; sourceTree = "<group>"; };
+		D7EA72B32C2B2CC900256CE0 /* ForFocusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForFocusVC.swift; sourceTree = "<group>"; };
+		D7EA72B52C2C3A2500256CE0 /* ForFocusCTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForFocusCTVC.swift; sourceTree = "<group>"; };
+		D7EA72B72C2C417200256CE0 /* ForCreativityCTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForCreativityCTVC.swift; sourceTree = "<group>"; };
+		D7EA72B92C2C431D00256CE0 /* ForCreativityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForCreativityVC.swift; sourceTree = "<group>"; };
+		D7EA72BB2C2C532400256CE0 /* MusicPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerVC.swift; sourceTree = "<group>"; };
+		D7EA72BE2C2C567400256CE0 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +72,11 @@
 		D7EA72972C233F7100256CE0 /* Level */ = {
 			isa = PBXGroup;
 			children = (
+				D7EA72BD2C2C565800256CE0 /* Audio File */,
+				D7EA72B02C2B27A300256CE0 /* Custom Files */,
+				D7EA72AF2C2B277700256CE0 /* Controller */,
 				D7EA72982C233F7100256CE0 /* AppDelegate.swift */,
 				D7EA729A2C233F7100256CE0 /* SceneDelegate.swift */,
-				D7EA729C2C233F7100256CE0 /* ViewController.swift */,
 				D7EA729E2C233F7100256CE0 /* Main.storyboard */,
 				D7EA72A42C233F7300256CE0 /* Assets.xcassets */,
 				D7EA72A62C233F7300256CE0 /* LaunchScreen.storyboard */,
@@ -68,6 +84,35 @@
 				D7EA72A12C233F7100256CE0 /* Level.xcdatamodeld */,
 			);
 			path = Level;
+			sourceTree = "<group>";
+		};
+		D7EA72AF2C2B277700256CE0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7EA729C2C233F7100256CE0 /* ViewController.swift */,
+				D7EA72B32C2B2CC900256CE0 /* ForFocusVC.swift */,
+				D7EA72B92C2C431D00256CE0 /* ForCreativityVC.swift */,
+				D7EA72BB2C2C532400256CE0 /* MusicPlayerVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7EA72B02C2B27A300256CE0 /* Custom Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7EA72B12C2B27FE00256CE0 /* FirstCCVC.swift */,
+				D7EA72B52C2C3A2500256CE0 /* ForFocusCTVC.swift */,
+				D7EA72B72C2C417200256CE0 /* ForCreativityCTVC.swift */,
+			);
+			path = "Custom Files";
+			sourceTree = "<group>";
+		};
+		D7EA72BD2C2C565800256CE0 /* Audio File */ = {
+			isa = PBXGroup;
+			children = (
+				D7EA72BE2C2C567400256CE0 /* music.mp3 */,
+			);
+			path = "Audio File";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7EA72BF2C2C567400256CE0 /* music.mp3 in Resources */,
 				D7EA72A82C233F7300256CE0 /* LaunchScreen.storyboard in Resources */,
 				D7EA72A52C233F7300256CE0 /* Assets.xcassets in Resources */,
 				D7EA72A02C233F7100256CE0 /* Main.storyboard in Resources */,
@@ -141,10 +187,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7EA72B22C2B27FE00256CE0 /* FirstCCVC.swift in Sources */,
 				D7EA729D2C233F7100256CE0 /* ViewController.swift in Sources */,
 				D7EA72992C233F7100256CE0 /* AppDelegate.swift in Sources */,
+				D7EA72B62C2C3A2500256CE0 /* ForFocusCTVC.swift in Sources */,
+				D7EA72B42C2B2CC900256CE0 /* ForFocusVC.swift in Sources */,
+				D7EA72BC2C2C532400256CE0 /* MusicPlayerVC.swift in Sources */,
+				D7EA72B82C2C417200256CE0 /* ForCreativityCTVC.swift in Sources */,
 				D7EA72A32C233F7100256CE0 /* Level.xcdatamodeld in Sources */,
 				D7EA729B2C233F7100256CE0 /* SceneDelegate.swift in Sources */,
+				D7EA72BA2C2C431D00256CE0 /* ForCreativityVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
